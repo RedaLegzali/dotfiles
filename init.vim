@@ -44,7 +44,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 
 " Vim Theme
-colorscheme spaceduck
+colorscheme onedark
 
 " Lightline 
 set laststatus=2
@@ -68,6 +68,6 @@ nnoremap <C-p> :FZF<CR>
 let g:user_emmet_expandabbr_key = '<S-Tab>'
 
 " Cursor 
-let &t_SI.="\e[5 q" "SI = INSERT mode
-let &t_SR.="\e[5 q" "SR = REPLACE mode
-let &t_EI.="\e[5 q" "EI = NORMAL mode (ELSE)
+"let &t_SI.="\e[5 q" "SI = INSERT mode
+"let &t_SR.="\e[5 q" "SR = REPLACE mode
+"let &t_EI.="\e[5 q" "EI = NORMAL mode (ELSE)

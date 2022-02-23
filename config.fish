@@ -19,3 +19,5 @@ function clean-docker
 end
 
 starship init fish | source
+
+neofetch
