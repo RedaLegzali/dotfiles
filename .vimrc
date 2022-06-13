@@ -44,12 +44,12 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 
 " Vim Theme
-colorscheme onedark
+colorscheme spaceduck
 
 " Lightline 
 set laststatus=2
 set noshowmode
-let g:lightline = { 'colorscheme': 'onedark' }
+let g:lightline = { 'colorscheme': 'spaceduck' }
 
 " NERDtree 
 nnoremap <C-t> :NERDTreeMirror<CR>:NERDTreeToggle<CR>
